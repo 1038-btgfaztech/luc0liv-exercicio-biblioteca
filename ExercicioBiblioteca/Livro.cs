@@ -35,7 +35,6 @@ namespace ExercicioBiblioteca
             {
                 Console.WriteLine($"Devolução do livro {Titulo} realizada");
             }
-
         }
     }
 }

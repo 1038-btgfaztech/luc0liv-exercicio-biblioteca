@@ -9,6 +9,6 @@ namespace ExercicioBiblioteca
     internal interface IPodeSerEmprestado
     {
         void Emprestar();
-        void Devolver(DateTime dateTime);
+        void Devolver(DateTime devolucao);
     }
 }
