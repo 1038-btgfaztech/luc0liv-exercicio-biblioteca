@@ -5,10 +5,10 @@
         static void Main(string[] args)
         {
             Biblioteca biblioteca = new();
-            Livro livro = new("Dom Casmurro", "Machado de Assis", 1889, 350);
-            Livro livro2 = new("Dom Casmurro2", "Machado de Assis", 1889, 350);
-            MidiaDigital midiaDigi = new("Midia", "Seila", 2006, 340);
-            Revista revista = new("Marie Claire", "numsei", 2020, 120);
+            Livro livro = new("Dom Casmurro", "Machado de Assis", 1899, 350);
+            Livro livro2 = new("O Conto da Aia", "Margaret Atwood", 1985, 350);
+            MidiaDigital midiaDigi = new("Jogos Vorazes", "Suzanne Collins", 2008, 400);
+            Revista revista = new("Turma da Mônica", "Mauricio de Sousa", 2020, 120);
 
             biblioteca.AdicionarItem(livro);
             biblioteca.AdicionarItem(livro);
